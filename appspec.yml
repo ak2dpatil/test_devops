@@ -16,10 +16,8 @@ hooks:
    BeforeInstall:
     - location: scripts/cleanup.sh
       runas: root
-      
     - location: scripts/installapache.sh
       runas: root
-      
     - location: scripts/startapache.sh
       runas: root
    AfterInstall:
